@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/ivBanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/tvFrase"
+        style="@style/viewCustom"
+        android:layout_below="@+id/btnLogin"
+        android:paddingTop="26dp"
+        android:gravity="center_horizontal"
+        android:text="@string/slogan"
+        android:textSize="15sp"
+        android:textColor="@color/orange"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/viewCustom"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingTop="30dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/viewCustom"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        style="@style/viewCustom"
+        android:background="@color/green"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:onClick="login"/>
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        style="@style/viewCustom"
+        android:layout_below="@id/tvLogin"
+        android:onClick="forgotPassword"
+        android:paddingTop="0dp"
+        android:gravity="center_horizontal"
+        android:text="@string/forgotPassword"
+        android:textSize="12sp"
+        android:textColor="@color/gray"/>
+
+    <LinearLayout
+        android:id="@+id/lyTerms"
+        style="@style/viewCustom"
+        android:layout_width="384dp"
+        android:layout_height="63dp"
+        android:background="@color/gray_dark">
+
+        <CheckBox
+            android:id="@+id/cbAcept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acept"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:onClick="goTerms"
+            android:text="@string/terms"
+            android:textColor="@color/salmon"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/brSignGoogle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/google"
+        android:text="@string/google"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingLeft="30dp"
+        android:onClick="callSignInGoogle"/>
+
+
+</LinearLayout>

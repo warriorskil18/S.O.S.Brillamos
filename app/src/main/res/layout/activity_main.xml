@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+
+<RelativeLayout
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="60dp">
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="177dp"
+          android:src="@drawable/banner" />
+
+      <ImageButton
+          android:id="@+id/ibWhats"
+          style="@style/viewCustom"
+          android:layout_width="match_parent"
+          android:layout_height="140dp"
+          android:background="@color/green"
+          app:srcCompat="@drawable/whatsapp" />
+
+
+
+      <ImageButton
+          android:id="@+id/ibMessege"
+          style="@style/viewCustom"
+          android:layout_width="match_parent"
+          android:layout_height="140dp"
+          android:background="@color/orange"
+          app:srcCompat="@drawable/mensaje" />
+
+
+      <ImageButton
+          android:id="@+id/ibAqui"
+          style="@style/viewCustom"
+          android:layout_width="match_parent"
+          android:layout_height="140dp"
+          android:background="@color/red"
+          app:srcCompat="@drawable/servicio"/>
+
+
+  </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_main_drawer"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

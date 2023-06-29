@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">T.E.S.O.S.</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="forgotPassword">¿Olvidaste tu contraseña?</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="resetPassword">Enviar Contraseña</string>
+    <string name="slogan">El TESCI te acompaña para que te sientas segur@</string>
+    <string name="acept">He leído y acepto los</string>
+    <string name="terms">términos y condiciones de uso</string>
+    <string name="empti_email">Introduce un email</string>
+    <string name="invalid_email">Introduce un email valido</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+
+    <string name="sos">PÁNICO</string>
+    <string name="asistencia">ASISTENCIA</string>
+    <string name="camino">EN CAMINO</string>
+
+    <string name="bar_title_terms">Términos y Condiciones de Uso</string>
+
+    <string name="salir">Cerrar sesión</string>
+
+    <string name="bar_title">T.E.S.O.S.</string>
+
+    <string name="alarmas">Mis alarmas</string>
+    <string name="grupo">Registro de contactos</string>
+    <string name="alertas">Mensaje predeterminado</string>
+    <string name="mensajes">Mis mensajes</string>
+    <string name="encuestas">Encuestas</string>
+    <string name="config">Configuración</string>
+
+    <string name="user">blabla@gmail.com</string>
+
+    <string name="navigation_drawer_open">Menu</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="alertActivationGPSTitle">Permitir acceso a ubicación</string>
+    <string name="alertActivationGPSDescription">Sin el uso de GPS no se puede determinar el punto de ayuda</string>
+    <string name="ignoreActivationGPS">Ignorar</string>
+    <string name="aceptActivationGPS">Activar</string>
+
+    <string name="Registro_tel">Registra tres numeros de telefono para emergencias</string>
+    <string name="Tel">Telefono</string>
+    <string name="Reg">Registrar</string>
+
+    <string name="mens">Registra el mensaje de emergencia que se enviara</string>
+    <string name="mensa">Mensaje</string>
+
+</resources>

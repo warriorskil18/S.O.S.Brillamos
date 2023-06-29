@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707386521706",
+    "project_id": "sosbrillamos-1c6a2",
+    "storage_bucket": "sosbrillamos-1c6a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707386521706:android:e7c02f5df834b6d7a2f213",
+        "android_client_info": {
+          "package_name": "com.example.sosbrillamos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707386521706-j6mtbq2eknfq7m5sinip32l6qdf1m8h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBccpXjgRbmTysDVo_DBdcIgppGPkHEOfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707386521706-j6mtbq2eknfq7m5sinip32l6qdf1m8h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

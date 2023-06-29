@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Numeros">
+    <menu>
+        <item android:id="@+id/nav_alarma"
+            android:icon="@drawable/alarma"
+            android:title="@string/alarmas"/>
+        <item android:id="@+id/nav_Telefono"
+            android:icon="@drawable/usuario"
+            android:title="@string/grupo"/>
+        <item android:id="@+id/nav_Mensaje"
+            android:icon="@drawable/comentario"
+            android:title="@string/alertas"/>
+
+    </menu>
+    </item>
+
+        <item android:title="Preferencias">
+            <menu>
+                <item android:id="@+id/afq"
+            android:icon="@drawable/encuesta"
+            android:title="@string/encuestas"/>
+                <item android:id="@+id/at"
+            android:icon="@drawable/configuracion"
+            android:title="@string/config"/>
+            </menu>
+
+        </item>
+
+        <item android:title="Salir">
+
+            <menu>
+    <item android:id="@+id/nav_salir"
+        android:icon="@drawable/salir"
+        android:title="@string/salir"/>
+
+            </menu>
+
+
+        </item>
+
+
+
+
+</menu>
